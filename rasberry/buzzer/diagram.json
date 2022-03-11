@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-buzzer",
+      "id": "bz1",
+      "top": -42.37846120198567,
+      "left": -171.3144989013672,
+      "attrs": { "volume": "0.1" }
+    }
+  ],
+  "connections": [ [ "bz1:2", "pico:GP15", "green", [ "v0" ] ], [ "bz1:1", "pico:GND.4", "green", [ "v0" ] ] ]
+}

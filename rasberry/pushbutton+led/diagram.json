@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": 0,
+      "left": 0,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": -23.378461201985672,
+      "left": -171.3144989013672,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": -21.71,
+      "left": -104.31,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 132.64,
+      "left": -226.49,
+      "attrs": { "color": "green" }
+    }
+  ],
+  "connections": [
+    [ "led1:A", "pico:GP15", "green", [ "v177.74", "h145.33" ] ],
+    [ "led1:C", "r1:1", "green", [ "v-32.93", "h48" ] ],
+    [ "r1:2", "pico:GND.8", "green", [ "v-5.6", "h136", "v49.33" ] ],
+    [ "btn1:1.r", "pico:GP14", "green", [ "v0" ] ],
+    [ "btn1:2.r", "pico:3V3", "green", [ "h-15.66", "v-229.59", "h309.33", "v108", "h6.67" ] ]
+  ]
+}

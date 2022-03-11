@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-pi-pico",
+      "id": "pico",
+      "top": -11.33,
+      "left": 70.67,
+      "attrs": { "env": "micropython-20220117-v1.18" }
+    },
+    { "type": "wokwi-servo", "id": "servo1", "top": 43.29, "left": -165.65, "attrs": {} }
+  ],
+  "connections": [
+    [ "servo1:GND", "pico:GND.8", "black", [ "h-7", "v-161.26", "h396", "v88" ] ],
+    [ "servo1:V+", "pico:3V3", "green", [ "h-14.33", "v144.57", "h398.67", "v-201.33" ] ],
+    [ "servo1:PWM", "pico:GP15", "green", [ "h2.34", "v109.74" ] ]
+  ]
+}
