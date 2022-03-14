@@ -1,0 +1,93 @@
+   
+<---------------------------------------------------------------------LINUX---------------------------------------------------------------------->
+Linux is an open-source fastest growing operating system like other operating systems such as Microsoft Windows, iOS,android, etc.
+-------------------------------------------------------------------------------------------------------------------------------------
+
+operating system:- it is a software that  enables the communicaations between computer hardware and software.
+-------------------------------------------------------------------------------------------------------------
+
+developed by:- Linus Torvalds in 1991. He is also the creator of git.
+---------------------------------------------------------------------
+
+features /// use
+secure
+free
+good performance
+linux terminal is better than windows command line.
+---------------------------------------------------
+
+linux terminal---> CTRL+ALT+T
+-----------------------------------------------------------------------------------------------
+
+Shell- it is linux command line interpreter. is provide an interface between user and the kernal.
+
+there are main two types of shell:
+1. Bourne shell ()
+
+Sub categories of Bourne shell are-- 
+i)Bourne shell (sh)
+ii)Korn Shell(ksh)
+iii) Bourne Again shell(BASH)
+iv) POSIX shell (sh)
+
+2. C shell
+Sub categories of C shell are-- 
+i) 
+ii)
+
+BASH --- Bourne-again Shell (bash is command interpreter or a programming language.
+it also support variable and function like other programming language.)
+------------------------------------------------------------------------------------
+
+kernal is the most important part of the os.
+it is interface between the hardware and processes of a computer. it serves as the bridge between the os and h/w.
+-------------------------------------------------------------------------------------------------------------------
+
+COMMAND
+
+sudo -super user do
+echo- dispay the line of text
+pwd -present working directory
+time- return perticular execution of the perticular command
+
+ls-list of files
+ll-list of files
+ls -t : gives highlight on last modified directory
+ls -lt :give complete details about recent modified file plus other file present
+
+cat and touch -- create a file
+touch file_name : create empty file
+cd /etc/ :take u to home directory directly
+touch file_name : create file name of file_name
+
+mkdir- creating folder
+rmdir dire_name : removes that particular directory 
+
+rm -r file_name : deletes that perticular file_name
+rm -i file_name : ask user permission before deletion
+rm -I file_name : dosnt ask user before deletion
+
+rm -r directory_name: remove the directory recursively
+rm -ir directory_name : removes the file or dir with asking permission
+
+cd directory_name/ : take u to that directory
+cd .. : take u to one directory before
+cd - : take u to previous working directory
+
+CP & MV
+cp file_parent file_child : copy content of parent on child
+mv file_parent file_child : move content of parent on child
+
+cat : print the content of a file onto the standard output stream
+cat > file name
+then enter type some thing
+perss ctrl+D
+cat >> file name
+then enter type some thing
+perss ctrl+D
+
+tac -- command is used to reverse the line 
+
+curl-
+
+whoami-- username
